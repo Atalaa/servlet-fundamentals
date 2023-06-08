@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class AddServlet extends HttpServlet {
 
-	public void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		//step 1: set the content type
 		int n1 = Integer.parseInt(request.getParameter("num1"));
@@ -24,7 +24,5 @@ public class AddServlet extends HttpServlet {
 		
 		//step 3: generate HTML content on the fly//		
 		out.print("result is " + res);
-			
 	}
-
 }
