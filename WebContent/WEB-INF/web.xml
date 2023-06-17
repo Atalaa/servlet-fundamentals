@@ -16,6 +16,15 @@
   </servlet>
   <servlet-mapping>
   	<servlet-name>myApp</servlet-name>
-  	<url-pattern>/add</url-pattern>
+  	<url-pattern>/addNumber/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>studentForm</servlet-name>
+  	<servlet-class>com.servletDemo.StudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>studentForm</servlet-name>
+  	<url-pattern>/reading-form-with-Servlets/studentServlet</url-pattern>
   </servlet-mapping>
 </web-app>
