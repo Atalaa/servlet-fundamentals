@@ -36,4 +36,22 @@
   	<servlet-name>square</servlet-name>
   	<url-pattern>/addNumber/calculateSquare</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>identity</servlet-name>
+  	<servlet-class>com.servletDemo.IdentityServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>identity</servlet-name>
+  	<url-pattern>/reading-form-with-Servlets2/identity</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>displayId</servlet-name>
+  	<servlet-class>com.servletDemo.DisplayIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>displayId</servlet-name>
+  	<url-pattern>/reading-form-with-Servlets2/displayIdentity</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -15,10 +15,13 @@ public class SquareServlet extends HttpServlet {
    
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		//fetching data
 		int res = (int) request.getAttribute("res");
 
+		//get the printWriter (that I'll use for sending back the data)
 		PrintWriter out = response.getWriter();
 				
+		//generate HTML content on the fly
 		out.println("Square result of " + res + " is " + res*res);
 		
 	}

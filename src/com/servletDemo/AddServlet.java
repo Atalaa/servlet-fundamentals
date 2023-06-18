@@ -17,17 +17,11 @@ public class AddServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		//step 1: set the content type
+		//set the content type
 		int n1 = Integer.parseInt(request.getParameter("num1"));
 		int n2 = Integer.parseInt(request.getParameter("num2"));
 		int res = n1 + n2;
 		response.setContentType("text/html");
-		
-		//step 2: get the printWriter (that I'll use for sending back the data)
-		PrintWriter out = response.getWriter();
-		
-		//step 3: generate HTML content on the fly//		
-		out.print("result is " + res);
 		
 		//session management (share Data between servlet)
 		request.setAttribute("res", res);
