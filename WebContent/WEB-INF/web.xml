@@ -27,4 +27,13 @@
   	<servlet-name>studentForm</servlet-name>
   	<url-pattern>/reading-form-with-Servlets/studentServlet</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>square</servlet-name>
+  	<servlet-class>com.servletDemo.SquareServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>square</servlet-name>
+  	<url-pattern>/addNumber/calculateSquare</url-pattern>
+  </servlet-mapping>
 </web-app>
