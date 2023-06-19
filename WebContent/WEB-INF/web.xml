@@ -20,15 +20,6 @@
   </servlet-mapping>
   
   <servlet>
-  	<servlet-name>studentForm</servlet-name>
-  	<servlet-class>com.servletDemo.StudentServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>studentForm</servlet-name>
-  	<url-pattern>/reading-form-with-Servlets/studentServlet</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
   	<servlet-name>square</servlet-name>
   	<servlet-class>com.servletDemo.SquareServlet</servlet-class>
   </servlet>
