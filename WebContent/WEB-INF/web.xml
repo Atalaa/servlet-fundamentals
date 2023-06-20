@@ -46,8 +46,6 @@
   	<url-pattern>/addNumberRedirect/calculateSquareRedirect</url-pattern>
   </servlet-mapping>
   
- 
-  
   <servlet>
   	<servlet-name>identity</servlet-name>
   	<servlet-class>com.servletDemo.IdentityServlet</servlet-class>
@@ -65,4 +63,33 @@
   	<servlet-name>displayId</servlet-name>
   	<url-pattern>/reading-form-with-Servlets2/displayIdentity</url-pattern>
   </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>configcontext</servlet-name>
+  	<servlet-class>com.servletDemo.MyServletContextAndConfig</servlet-class>
+  	<init-param>
+  		<param-name>name</param-name>
+  		<param-value>Terminator</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>configcontext</servlet-name>
+  	<url-pattern>/servletcontextandservletconfig/index</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+  	<param-name>name</param-name>
+  	<param-value>John</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>phone</param-name>
+  	<param-value>Samsung</param-value>
+  </context-param>
+  
+  
+  
+  
+  
 </web-app>
