@@ -19,7 +19,7 @@
   	<url-pattern>/addNumber/add</url-pattern>
   </servlet-mapping>
   
-  <servlet>
+   <servlet>
   	<servlet-name>square</servlet-name>
   	<servlet-class>com.servletDemo.SquareServlet</servlet-class>
   </servlet>
@@ -27,6 +27,26 @@
   	<servlet-name>square</servlet-name>
   	<url-pattern>/addNumber/calculateSquare</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>myAppRedirect</servlet-name>
+  	<servlet-class>com.servletDemo.SendRedirectAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>myAppRedirect</servlet-name>
+  	<url-pattern>/addNumberRedirect/addRedirect</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>squareRedirect</servlet-name>
+  	<servlet-class>com.servletDemo.SendRedirectSquareServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>squareRedirect</servlet-name>
+  	<url-pattern>/addNumberRedirect/calculateSquareRedirect</url-pattern>
+  </servlet-mapping>
+  
+ 
   
   <servlet>
   	<servlet-name>identity</servlet-name>
