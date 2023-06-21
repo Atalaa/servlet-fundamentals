@@ -10,7 +10,7 @@
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
   
-  <servlet>
+ <!--  <servlet>
   	<servlet-name>myApp</servlet-name>
   	<servlet-class>com.servletDemo.AddServlet</servlet-class>
   </servlet>
@@ -26,7 +26,7 @@
   <servlet-mapping>
   	<servlet-name>square</servlet-name>
   	<url-pattern>/addNumber/calculateSquare</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> -->
   
   <servlet>
   	<servlet-name>myAppRedirect</servlet-name>
