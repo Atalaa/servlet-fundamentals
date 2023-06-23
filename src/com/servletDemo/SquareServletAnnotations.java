@@ -24,7 +24,7 @@ public class SquareServletAnnotations extends HttpServlet {
 		PrintWriter out = response.getWriter();
 				
 		//generate HTML content on the fly
-		out.println("Square result of " + res + " is " + res*res);
+		out.println("Annotation Square result of " + res + " is " + res*res);
 		
 	}
 }
